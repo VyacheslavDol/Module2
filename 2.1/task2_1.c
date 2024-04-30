@@ -16,12 +16,12 @@ int main(){
     char firstname[FIRST_NAME_SIZE], lastname[LAST_NAME_SIZE], phone[PHONE_NUMBER_SIZE], email[EMAIL_SIZE];
     
 
-        struct Contact contact[5];// создать массив из структуры
-        struct Person p;
-        struct Email e;
-        struct Phone t;
+    struct Contact contact[5];// создать массив из структуры
+    struct Person p;
+    struct Email e;
+    struct Phone t;
 
-        memset(contact, 0, sizeof(contact));
+    memset(contact, 0, sizeof(contact));
 
 while(flag){
     
@@ -36,6 +36,7 @@ while(flag){
         ansi = atoi(ans);
         
         switch(ansi){
+            
             case ADD:
 
         name_check = 0;

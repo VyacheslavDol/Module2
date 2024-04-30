@@ -18,7 +18,6 @@ int main(){
     
     struct Item* head = NULL;
     struct Item* tmp;
-    /* ... */
     int choice, exit_flag = 1, flag;
     struct Contact new_contact;
 
