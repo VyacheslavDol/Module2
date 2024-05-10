@@ -1,6 +1,6 @@
-all: libmy1.a
+all: libmy.so
 
-libmy1.a: contact.o email.o input_char.o list_func.o person.o phone.o
+libmy.so: contact.o email.o input_char.o list_func.o person.o phone.o
 	gcc -shared -o libmy.so *.o
 	rm -f *.o
 
